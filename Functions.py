@@ -13,7 +13,7 @@ def determine_age(bd):
 
 
 def sql():
-        connection = mysql.connector.connect(host='game-cloud.ml',
+        connection = mysql.connector.connect(host='192.168.0.10',
                                              port='9996',
                                              database='emp_sql',
                                              user='EMP_SQL_FS20D',

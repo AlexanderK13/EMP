@@ -35,4 +35,4 @@ def showTable():
         employeeWriter.writerow(employee)
     return template("table")
 
-run(app, host='localhost', port=80, reloader=False)
+run(app, host='localhost', port=8080, reloader=False)
